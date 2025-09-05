@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using ParkingServiceApi.Data;
+
 namespace ParkingServiceApi
 {
     public class Program
@@ -12,6 +15,8 @@ namespace ParkingServiceApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<ParkingServiceDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
