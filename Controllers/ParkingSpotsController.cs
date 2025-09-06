@@ -2,6 +2,9 @@
 using ParkingServiceApi.Entities;
 using ParkingServiceApi.DTOs;
 using Microsoft.AspNetCore.Authentication.OAuth.Claims;
+using ParkingServiceApi.Data;
+using Microsoft.EntityFrameworkCore;
+using ParkingServiceApi.Data.Models;
 
 namespace ParkingServiceApi.Controllers
 {
@@ -9,33 +12,59 @@ namespace ParkingServiceApi.Controllers
     [Route("api/[controller]")]
     public class ParkingSpotsController : ControllerBase
     {
-        private static List<ParkingSpotDto> _parkingSpots = new List<ParkingSpotDto>();
+        private ParkingServiceDbContext context;
+        public ParkingSpotsController(ParkingServiceDbContext _context) {
+            context = _context;
+        }    
+
+        //private static List<ParkingSpotDto> _parkingSpots = new List<ParkingSpotDto>();
         [HttpGet("getAllSpots")]
         public async Task<ActionResult<List<ParkingSpotDto>>> GetAllSpots()
         {
-            if (_parkingSpots.Count == 0)
+            var allSpots = await context.ParkingSpots
+            .AsNoTracking()
+            .Select(x => new ParkingSpotDto
             {
-                return Ok(new List<ParkingSpotDto>());
-            }
-            else
-            {
-                return Ok(_parkingSpots);
-            }
+                ParkingSpotId = x.ParkingSpotId,
+                ParkingSlotId = x.ParkingLotId,
+                Number = x.Number,
+                IsOccupied = x.IsOccupied
+            })
+            .ToListAsync();
+
+            return Ok(allSpots);
         }
 
         [HttpPost("create")]
         public async Task<ActionResult<ParkingSpotDto>> Create([FromBody] CreateParkingSpotDto spot)
         {
-            var newSpot = new ParkingSpotDto
+            //var newSpot = new ParkingSpotDto
+            //{
+            //    Id = "1",
+            //    Number = spot.Number,
+            //    IsOccupied = spot.IsOccupied
+            //};
+
+            var newSpot = new ParkingSpot()
             {
-                Id = "1",
+                ParkingLotId = spot.ParkingLotId,
                 Number = spot.Number,
                 IsOccupied = spot.IsOccupied
             };
 
-            _parkingSpots.Add(newSpot);
+            context.ParkingSpots.Add(newSpot);
 
-            return CreatedAtAction(nameof(GetSpotById), new { Id = newSpot.Id }, newSpot);
+            await context.SaveChangesAsync();
+
+            var dto = new ParkingSpotDto()
+            {
+                ParkingSpotId = newSpot.ParkingSpotId,
+                ParkingLotId = newSpot.ParkingLotId,
+                Number = newSpot.Number,
+                IsOccupied = newSpot.IsOccupied,
+            };
+
+            return CreatedAtAction(nameof(GetSpotById), new { Id = dto.ParkingSpotId }, dto);
         }
 
         [HttpGet("{id}")]
