@@ -101,6 +101,7 @@ public partial class ParkingServiceDbContext : DbContext
             entity.Property(e => e.Name)
                 .HasMaxLength(100)
                 .HasColumnName("NAME");
+            entity.Property(e => e.TotalSpots).HasColumnName("TOTAL_SPOTS");
 
             entity.HasOne(d => d.Address).WithMany(p => p.ParkingLots)
                 .HasForeignKey(d => d.AddressId)

@@ -1,4 +1,7 @@
-﻿namespace ParkingServiceApi.Data.Models;
+﻿using System;
+using System.Collections.Generic;
+
+namespace ParkingServiceApi.Data.Models;
 
 public partial class ParkingSpot
 {

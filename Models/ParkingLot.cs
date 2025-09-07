@@ -13,6 +13,8 @@ public partial class ParkingLot
 
     public string? Description { get; set; }
 
+    public int TotalSpots { get; set; }
+
     public virtual Address Address { get; set; } = null!;
 
     public virtual ICollection<ParkingSpot> ParkingSpots { get; set; } = new List<ParkingSpot>();
