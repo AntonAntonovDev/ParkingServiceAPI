@@ -52,3 +52,376 @@
 [2025-09-17 16:00:31 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/favicon-32x32.png - 200 628 image/png 0.492ms
 [2025-09-17 16:00:31 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
 [2025-09-17 16:00:31 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.6711ms
+[2025-09-17 20:01:40 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:01:40 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:01:41 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:01:41 INF] Hosting environment: Development
+[2025-09-17 20:01:41 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:01:41 INF] Request starting HTTP/2 GET https://localhost:40443/swagger - null null
+[2025-09-17 20:01:41 INF] Request finished HTTP/2 GET https://localhost:40443/swagger - 301 0 null 162.3024ms
+[2025-09-17 20:01:41 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:01:41 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 73.9138ms
+[2025-09-17 20:01:41 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/swagger-ui.css - null null
+[2025-09-17 20:01:41 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:01:41 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/swagger-ui-bundle.js - null null
+[2025-09-17 20:01:41 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/swagger-ui-standalone-preset.js - null null
+[2025-09-17 20:01:41 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 8.6166ms
+[2025-09-17 20:01:41 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2025-09-17 20:01:41 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2025-09-17 20:01:41 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 37.9917ms
+[2025-09-17 20:01:41 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/swagger-ui.css - 200 152034 text/css 38.4415ms
+[2025-09-17 20:01:42 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2025-09-17 20:01:42 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 83.8591ms
+[2025-09-17 20:01:42 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:01:42 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.798ms
+[2025-09-17 20:01:42 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/favicon-32x32.png - null null
+[2025-09-17 20:01:42 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2025-09-17 20:01:42 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/favicon-32x32.png - 200 628 image/png 0.8482ms
+[2025-09-17 20:01:42 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:01:42 ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET error" for actions - ParkingServiceApi.Controllers.ErrorController.Error (ParkingServiceApi),HTTP: GET /error. Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-09-17 20:01:42 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 23.8611ms
+[2025-09-17 20:07:36 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:07:36 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:07:36 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:07:36 INF] Hosting environment: Development
+[2025-09-17 20:07:36 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:07:37 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:07:37 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 222.6753ms
+[2025-09-17 20:07:37 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:07:37 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.0738ms
+[2025-09-17 20:07:37 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:07:37 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.519ms
+[2025-09-17 20:07:37 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:07:37 ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET error" for actions - ParkingServiceApi.Controllers.ErrorController.Error (ParkingServiceApi),HTTP: GET /error. Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-09-17 20:07:37 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 18.3998ms
+[2025-09-17 20:07:53 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:07:53 ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET error" for actions - ParkingServiceApi.Controllers.ErrorController.Error (ParkingServiceApi),HTTP: GET /error. Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-09-17 20:07:53 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 500 null text/html; charset=utf-8 36.1364ms
+[2025-09-17 20:07:53 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:07:53 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:07:53 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 3.0954ms
+[2025-09-17 20:07:53 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.9072ms
+[2025-09-17 20:07:53 INF] Request starting HTTP/2 GET https://localhost:40443/favicon.ico - null null
+[2025-09-17 20:07:53 INF] Request finished HTTP/2 GET https://localhost:40443/favicon.ico - 404 0 null 5.1512ms
+[2025-09-17 20:07:53 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/favicon.ico, Response status code: 404
+[2025-09-17 20:12:07 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:12:07 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:12:07 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:12:07 INF] Hosting environment: Development
+[2025-09-17 20:12:07 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:12:08 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:12:08 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 209.1327ms
+[2025-09-17 20:12:08 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:12:08 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:12:08 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 6.0168ms
+[2025-09-17 20:12:08 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.1566ms
+[2025-09-17 20:12:08 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:12:08 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.3414ms
+[2025-09-17 20:16:57 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:16:57 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:16:57 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:16:57 INF] Hosting environment: Development
+[2025-09-17 20:16:57 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:16:57 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:16:58 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 175.3024ms
+[2025-09-17 20:16:58 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:16:58 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.2413ms
+[2025-09-17 20:16:58 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:16:58 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.2019ms
+[2025-09-17 20:16:58 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:16:58 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.9652ms
+[2025-09-17 20:17:05 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:17:05 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:17:05 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:17:05 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 200 null application/json; charset=utf-8 9.2928ms
+[2025-09-17 20:17:20 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:17:20 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:17:20 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:17:20 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 200 null application/json; charset=utf-8 4.993ms
+[2025-09-17 20:19:23 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:19:23 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:19:23 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:19:23 INF] Hosting environment: Development
+[2025-09-17 20:19:23 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:19:24 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:19:24 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 205.6957ms
+[2025-09-17 20:19:24 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:19:24 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.0804ms
+[2025-09-17 20:19:24 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:19:24 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.4497ms
+[2025-09-17 20:19:24 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:19:24 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0517ms
+[2025-09-17 20:19:29 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:19:29 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:19:32 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:19:32 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 51
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-09-17 20:19:32 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null text/html; charset=utf-8 2452.3429ms
+[2025-09-17 20:19:32 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:19:32 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:19:32 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 6.7502ms
+[2025-09-17 20:19:32 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.6673ms
+[2025-09-17 20:28:52 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:28:52 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:28:52 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:28:52 INF] Hosting environment: Development
+[2025-09-17 20:28:52 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:28:52 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:28:52 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 205.5662ms
+[2025-09-17 20:28:52 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:28:52 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:28:52 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 4.9552ms
+[2025-09-17 20:28:52 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.0399ms
+[2025-09-17 20:28:53 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:28:53 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.6412ms
+[2025-09-17 20:29:06 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:29:06 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:29:09 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:29:09 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 51
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-09-17 20:29:09 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null text/html; charset=utf-8 2287.9356ms
+[2025-09-17 20:29:09 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:29:09 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:29:09 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 1.7607ms
+[2025-09-17 20:29:09 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.1672ms
+[2025-09-17 20:30:26 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:30:26 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:30:26 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:30:26 INF] Hosting environment: Development
+[2025-09-17 20:30:26 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:30:27 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:30:27 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 187.6675ms
+[2025-09-17 20:30:27 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:30:27 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 10.6562ms
+[2025-09-17 20:30:27 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:30:27 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.5253ms
+[2025-09-17 20:30:27 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:30:27 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.1403ms
+[2025-09-17 20:30:34 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:30:34 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:30:36 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:30:36 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 51
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-09-17 20:30:36 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null text/html; charset=utf-8 2041.8243ms
+[2025-09-17 20:30:36 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:30:36 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:30:36 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 4.4913ms
+[2025-09-17 20:30:36 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.6824ms
+[2025-09-17 20:38:35 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:38:35 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:38:35 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:38:35 INF] Hosting environment: Development
+[2025-09-17 20:38:35 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:38:36 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:38:36 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 198.7969ms
+[2025-09-17 20:38:36 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:38:36 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:38:36 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.3456ms
+[2025-09-17 20:38:36 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.1526ms
+[2025-09-17 20:38:37 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:38:37 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.0229ms
+[2025-09-17 20:38:41 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:38:41 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:39:05 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:39:05 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 60
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2025-09-17 20:39:05 INF] Executing endpoint 'HTTP: GET /error'
+[2025-09-17 20:39:05 INF] Setting HTTP status code 500.
+[2025-09-17 20:39:05 INF] Writing value of type 'ProblemDetails' as Json.
+[2025-09-17 20:39:05 INF] Executed endpoint 'HTTP: GET /error'
+[2025-09-17 20:39:05 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null application/problem+json 24210.3874ms
+[2025-09-17 20:44:17 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:44:17 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:44:17 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:44:17 INF] Hosting environment: Development
+[2025-09-17 20:44:17 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:44:17 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:44:18 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 200.8257ms
+[2025-09-17 20:44:18 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:44:18 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:44:18 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.4444ms
+[2025-09-17 20:44:18 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.262ms
+[2025-09-17 20:44:18 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:44:18 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.9885ms
+[2025-09-17 20:44:22 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:44:22 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:44:27 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:44:27 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 60
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2025-09-17 20:44:27 INF] Executing endpoint 'HTTP: GET /error'
+[2025-09-17 20:44:27 INF] Setting HTTP status code 500.
+[2025-09-17 20:44:27 INF] Writing value of type 'ProblemDetails' as Json.
+[2025-09-17 20:44:27 INF] Executed endpoint 'HTTP: GET /error'
+[2025-09-17 20:44:27 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null application/problem+json 4501.7218ms
+[2025-09-17 20:44:36 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:44:36 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:44:39 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:44:39 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 60
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2025-09-17 20:44:39 INF] Executing endpoint 'HTTP: GET /error'
+[2025-09-17 20:44:39 INF] Setting HTTP status code 500.
+[2025-09-17 20:44:39 INF] Writing value of type 'ProblemDetails' as Json.
+[2025-09-17 20:44:39 INF] Executed endpoint 'HTTP: GET /error'
+[2025-09-17 20:44:39 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null application/problem+json 2501.7945ms
+[2025-09-17 20:53:25 INF] Now listening on: https://localhost:40443
+[2025-09-17 20:53:25 INF] Now listening on: http://localhost:40080
+[2025-09-17 20:53:25 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 20:53:25 INF] Hosting environment: Development
+[2025-09-17 20:53:25 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 20:53:25 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 20:53:25 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 229.3706ms
+[2025-09-17 20:53:25 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 20:53:25 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 20:53:25 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.8139ms
+[2025-09-17 20:53:25 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4309ms
+[2025-09-17 20:53:26 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 20:53:26 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.0249ms
+[2025-09-17 20:53:29 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:53:29 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:53:33 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:53:33 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 60
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2025-09-17 20:53:33 INF] Executing endpoint 'HTTP: GET /error'
+[2025-09-17 20:53:33 INF] Setting HTTP status code 500.
+[2025-09-17 20:53:33 INF] Writing value of type 'ProblemDetails' as Json.
+[2025-09-17 20:53:33 INF] Executed endpoint 'HTTP: GET /error'
+[2025-09-17 20:53:33 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null application/problem+json 4375.6418ms
+[2025-09-17 20:53:41 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 20:53:41 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:53:43 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 20:53:43 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 60
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2025-09-17 20:53:43 INF] Executing endpoint 'HTTP: GET /error'
+[2025-09-17 20:53:43 INF] Setting HTTP status code 500.
+[2025-09-17 20:53:43 INF] Writing value of type 'ProblemDetails' as Json.
+[2025-09-17 20:53:43 INF] Executed endpoint 'HTTP: GET /error'
+[2025-09-17 20:53:43 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null application/problem+json 2291.1689ms
+[2025-09-17 21:00:46 INF] Now listening on: https://localhost:40443
+[2025-09-17 21:00:46 INF] Now listening on: http://localhost:40080
+[2025-09-17 21:00:46 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 21:00:46 INF] Hosting environment: Development
+[2025-09-17 21:00:46 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 21:00:46 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 21:00:46 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 191.8389ms
+[2025-09-17 21:00:46 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 21:00:46 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 21:00:46 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.1317ms
+[2025-09-17 21:00:46 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.5613ms
+[2025-09-17 21:00:47 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 21:00:47 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.2158ms
+[2025-09-17 21:00:51 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 21:00:51 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 21:00:56 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 21:00:56 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 60
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-09-17 21:00:57 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null text/html; charset=utf-8 5991.2902ms
+[2025-09-17 21:01:03 INF] Request starting HTTP/2 GET https://localhost:40443/error/test - null null
+[2025-09-17 21:01:03 INF] Executing endpoint 'HTTP: GET /error/test'
+[2025-09-17 21:01:05 INF] Executed endpoint 'HTTP: GET /error/test'
+[2025-09-17 21:01:05 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Test
+   at Program.<>c.<<Main>$>b__0_3() in C:\Projects\ParkingServiceApi\Program.cs:line 60
+   at lambda_method5(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-09-17 21:01:05 INF] Request finished HTTP/2 GET https://localhost:40443/error/test - 500 null text/html; charset=utf-8 1925.5987ms
+[2025-09-17 21:01:05 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 21:01:05 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 21:01:05 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 1.7523ms
+[2025-09-17 21:01:05 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.8535ms
+[2025-09-17 22:51:56 INF] Now listening on: https://localhost:40443
+[2025-09-17 22:51:56 INF] Now listening on: http://localhost:40080
+[2025-09-17 22:51:56 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 22:51:56 INF] Hosting environment: Development
+[2025-09-17 22:51:56 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 22:51:57 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 22:51:57 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 195.7982ms
+[2025-09-17 22:51:57 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 22:51:57 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 9.2523ms
+[2025-09-17 22:51:57 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 22:51:57 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.9173ms
+[2025-09-17 22:51:57 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 22:51:57 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.1242ms
+[2025-09-17 23:02:24 INF] Now listening on: https://localhost:40443
+[2025-09-17 23:02:24 INF] Now listening on: http://localhost:40080
+[2025-09-17 23:02:24 INF] Application started. Press Ctrl+C to shut down.
+[2025-09-17 23:02:24 INF] Hosting environment: Development
+[2025-09-17 23:02:24 INF] Content root path: C:\Projects\ParkingServiceApi
+[2025-09-17 23:02:24 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-09-17 23:02:24 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 211.1358ms
+[2025-09-17 23:02:24 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-09-17 23:02:24 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-09-17 23:02:24 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.7007ms
+[2025-09-17 23:02:24 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.9351ms
+[2025-09-17 23:02:25 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-09-17 23:02:25 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.9166ms

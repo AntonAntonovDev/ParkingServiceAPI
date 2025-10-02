@@ -36,6 +36,15 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    //app.UseDeveloperExceptionPage();
+}
+//else
+//{
+//    app.UseExceptionHandler("/error");
+//}
+
+if (app.Configuration.GetValue<bool>("UseDeveloperExceptionPage"))
+{
     app.UseDeveloperExceptionPage();
 }
 else
@@ -46,6 +55,9 @@ else
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.MapGet("/error", () => Results.Problem());
+app.MapGet("/error/test", () => { throw new Exception("Test"); });
 
 app.MapControllers();
 
