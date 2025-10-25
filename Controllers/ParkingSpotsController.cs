@@ -25,6 +25,7 @@ namespace ParkingServiceApi.Controllers
 
         //private static List<ParkingSpotDto> _parkingSpots = new List<ParkingSpotDto>();
         [HttpGet]
+        [ResponseCache(Location = ResponseCacheLocation.Any, Duration = 30)]
         public async Task<ActionResult<List<ParkingSpotDto>>> GetAllSpots()
         {
             logger.LogInformation("Получен запрос на кол-во парковочных мест");

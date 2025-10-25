@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ParkingServiceApi.Data;
 using Serilog;
@@ -29,6 +31,24 @@ builder.Services.AddAutoMapper(cfg =>
     cfg.AddMaps(AppDomain.CurrentDomain.GetAssemblies());
 });
 
+// Configure CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(cfg =>
+    {
+        cfg.WithOrigins(builder.Configuration["AllowedOrigins"]);
+        cfg.AllowAnyHeader();
+        cfg.AllowAnyMethod();
+    });
+    options.AddPolicy(name: "AnyOrigin",
+    cfg =>
+    {
+        cfg.AllowAnyOrigin();
+        cfg.AllowAnyHeader();
+        cfg.AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -36,12 +56,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    //app.UseDeveloperExceptionPage();
 }
-//else
-//{
-//    app.UseExceptionHandler("/error");
-//}
 
 if (app.Configuration.GetValue<bool>("UseDeveloperExceptionPage"))
 {
@@ -54,10 +69,18 @@ else
 
 app.UseHttpsRedirection();
 
+app.UseCors();
+
 app.UseAuthorization();
 
-app.MapGet("/error", () => Results.Problem());
-app.MapGet("/error/test", () => { throw new Exception("Test"); });
+app.MapGet("/error", 
+    [EnableCors("AnyOrigin")]
+    [ResponseCache(NoStore = true)]    () => 
+    Results.Problem());
+app.MapGet("/error/test",
+    [EnableCors("AnyOrigin")]
+    [ResponseCache(NoStore = true)]    () => 
+    { throw new Exception("Test"); });
 
 app.MapControllers();
 
