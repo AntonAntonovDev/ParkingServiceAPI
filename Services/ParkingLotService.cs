@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using ParkingServiceApi.Data;
 using ParkingServiceApi.Data.Models;
-using ParkingServiceApi.DTOs;
+using ParkingServiceApi.DTO;
 using ParkingServiceApi.Services.Interfaces;
 
 namespace ParkingServiceApi.Services

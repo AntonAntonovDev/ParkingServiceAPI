@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ParkingServiceApi.Data.Models;
-using ParkingServiceApi.DTOs;
+using ParkingServiceApi.DTO;
 
 namespace ParkingServiceApi.Services.Interfaces
 {

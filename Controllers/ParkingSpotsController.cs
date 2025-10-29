@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 //using ParkingServiceApi.Entities;
-using ParkingServiceApi.DTOs;
+using ParkingServiceApi.DTO;
 using Microsoft.AspNetCore.Authentication.OAuth.Claims;
 using ParkingServiceApi.Data;
 using Microsoft.EntityFrameworkCore;

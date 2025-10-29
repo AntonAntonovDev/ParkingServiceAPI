@@ -1,0 +1,387 @@
+[2025-10-28 13:54:35 INF] Now listening on: https://localhost:40443
+[2025-10-28 13:54:35 INF] Now listening on: http://localhost:40080
+[2025-10-28 13:54:35 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 13:54:35 INF] Hosting environment: Development
+[2025-10-28 13:54:35 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 13:54:36 INF] Request starting HTTP/2 GET https://localhost:40443/swagger - null null
+[2025-10-28 13:54:36 INF] Request finished HTTP/2 GET https://localhost:40443/swagger - 301 0 null 236.9982ms
+[2025-10-28 13:54:36 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 13:54:36 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 115.8484ms
+[2025-10-28 13:54:36 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/swagger-ui.css - null null
+[2025-10-28 13:54:36 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/swagger-ui-bundle.js - null null
+[2025-10-28 13:54:36 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/swagger-ui-standalone-preset.js - null null
+[2025-10-28 13:54:36 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 13:54:36 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 6.4913ms
+[2025-10-28 13:54:36 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 13:54:36 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2025-10-28 13:54:36 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2025-10-28 13:54:36 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 72.8642ms
+[2025-10-28 13:54:36 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/swagger-ui.css - 200 152034 text/css 73.0056ms
+[2025-10-28 13:54:36 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2025-10-28 13:54:36 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 148.7727ms
+[2025-10-28 13:54:36 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 202.4754ms
+[2025-10-28 13:54:37 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 13:54:37 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.7505ms
+[2025-10-28 13:54:37 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/favicon-32x32.png - null null
+[2025-10-28 13:54:37 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2025-10-28 13:54:37 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/favicon-32x32.png - 200 628 image/png 0.7608ms
+[2025-10-28 13:54:46 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 13:54:46 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:54:46 INF] Write content with HTTP Response ContentType of text/html
+[2025-10-28 13:54:46 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:54:46 WRN] Unable to configure Browser Link script injection on the response. 
+[2025-10-28 13:54:46 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2025-10-28 13:54:46 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html 30.3702ms
+[2025-10-28 13:54:46 INF] Request starting HTTP/2 GET https://localhost:40443/favicon.ico - null null
+[2025-10-28 13:54:46 INF] Request finished HTTP/2 GET https://localhost:40443/favicon.ico - 404 0 null 0.9203ms
+[2025-10-28 13:54:46 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/favicon.ico, Response status code: 404
+[2025-10-28 13:55:11 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 13:55:11 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:55:11 INF] Write content with HTTP Response ContentType of text/html
+[2025-10-28 13:55:11 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:55:11 WRN] Unable to configure Browser Link script injection on the response. 
+[2025-10-28 13:55:11 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2025-10-28 13:55:11 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html 11.0092ms
+[2025-10-28 13:55:17 INF] Request starting HTTP/2 GET https://localhost:40443/cod/ - null null
+[2025-10-28 13:55:17 INF] Request finished HTTP/2 GET https://localhost:40443/cod/ - 404 0 null 2.4383ms
+[2025-10-28 13:55:17 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/cod/, Response status code: 404
+[2025-10-28 13:55:21 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 13:55:21 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:55:21 INF] Write content with HTTP Response ContentType of text/html
+[2025-10-28 13:55:21 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:55:21 WRN] Unable to configure Browser Link script injection on the response. 
+[2025-10-28 13:55:21 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2025-10-28 13:55:21 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html 3.3733ms
+[2025-10-28 13:55:41 INF] Now listening on: https://localhost:40443
+[2025-10-28 13:55:41 INF] Now listening on: http://localhost:40080
+[2025-10-28 13:55:41 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 13:55:41 INF] Hosting environment: Development
+[2025-10-28 13:55:41 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 13:55:41 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 13:55:41 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 13:55:41 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 13:55:41 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 244.8103ms
+[2025-10-28 13:55:41 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 14.3515ms
+[2025-10-28 13:55:41 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.3194ms
+[2025-10-28 13:55:41 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 13:55:41 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.026ms
+[2025-10-28 13:55:49 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 13:55:49 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:55:49 INF] Write content with HTTP Response ContentType of text/html
+[2025-10-28 13:55:49 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:55:49 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 131 text/html 14.3533ms
+[2025-10-28 13:58:11 INF] Now listening on: https://localhost:40443
+[2025-10-28 13:58:11 INF] Now listening on: http://localhost:40080
+[2025-10-28 13:58:11 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 13:58:11 INF] Hosting environment: Development
+[2025-10-28 13:58:11 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 13:58:12 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 13:58:12 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 206.2706ms
+[2025-10-28 13:58:12 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 13:58:12 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 6.0326ms
+[2025-10-28 13:58:12 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 13:58:12 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.384ms
+[2025-10-28 13:58:12 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 13:58:12 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.1514ms
+[2025-10-28 13:58:17 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 13:58:17 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:58:17 INF] Write content with HTTP Response ContentType of text/html
+[2025-10-28 13:58:17 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 13:58:17 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 175 text/html 16.0025ms
+[2025-10-28 14:00:46 INF] Now listening on: https://localhost:40443
+[2025-10-28 14:00:46 INF] Now listening on: http://localhost:40080
+[2025-10-28 14:00:47 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 14:00:47 INF] Hosting environment: Development
+[2025-10-28 14:00:47 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 14:00:47 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 14:00:47 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 193.5035ms
+[2025-10-28 14:00:47 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:00:47 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 4.6025ms
+[2025-10-28 14:00:47 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:00:48 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.842ms
+[2025-10-28 14:00:48 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 14:00:48 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.3612ms
+[2025-10-28 14:00:53 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:00:53 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:00:53 INF] Write content with HTTP Response ContentType of text/html
+[2025-10-28 14:00:53 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:00:53 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 172 text/html 14.9482ms
+[2025-10-28 14:01:57 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:01:57 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:01:57 INF] Write content with HTTP Response ContentType of text/html
+[2025-10-28 14:01:57 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:01:57 WRN] Unable to configure Browser Link script injection on the response. 
+[2025-10-28 14:01:57 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2025-10-28 14:01:57 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html 33.1946ms
+[2025-10-28 14:04:10 INF] Now listening on: https://localhost:40443
+[2025-10-28 14:04:10 INF] Now listening on: http://localhost:40080
+[2025-10-28 14:04:10 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 14:04:10 INF] Hosting environment: Development
+[2025-10-28 14:04:10 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 14:04:10 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 14:04:10 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 193.3889ms
+[2025-10-28 14:04:10 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:04:10 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 7.2588ms
+[2025-10-28 14:04:10 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:04:10 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.8997ms
+[2025-10-28 14:04:10 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 14:04:10 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.732ms
+[2025-10-28 14:04:16 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:04:16 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:04:16 INF] Write content with HTTP Response ContentType of text/html
+[2025-10-28 14:04:16 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:04:16 WRN] Unable to configure Browser Link script injection on the response. 
+[2025-10-28 14:04:16 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2025-10-28 14:04:16 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html 22.6575ms
+[2025-10-28 14:06:11 INF] Now listening on: https://localhost:40443
+[2025-10-28 14:06:11 INF] Now listening on: http://localhost:40080
+[2025-10-28 14:06:11 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 14:06:11 INF] Hosting environment: Development
+[2025-10-28 14:06:11 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 14:06:12 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 14:06:12 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 185.1543ms
+[2025-10-28 14:06:12 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:06:12 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 6.011ms
+[2025-10-28 14:06:12 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:06:12 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.0793ms
+[2025-10-28 14:06:12 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 14:06:12 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.4287ms
+[2025-10-28 14:06:20 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:06:20 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:06:20 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:06:20 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:06:20 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 19.8846ms
+[2025-10-28 14:06:20 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:06:20 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:06:20 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 1.7472ms
+[2025-10-28 14:06:20 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.1415ms
+[2025-10-28 14:07:31 INF] Now listening on: https://localhost:40443
+[2025-10-28 14:07:31 INF] Now listening on: http://localhost:40080
+[2025-10-28 14:07:31 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 14:07:31 INF] Hosting environment: Development
+[2025-10-28 14:07:31 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 14:07:31 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 14:07:32 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 197.6922ms
+[2025-10-28 14:07:32 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:07:32 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:07:32 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 32.165ms
+[2025-10-28 14:07:32 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.8239ms
+[2025-10-28 14:07:32 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 14:07:32 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.4676ms
+[2025-10-28 14:07:38 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:07:38 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:07:38 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:07:38 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:07:38 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 21.3095ms
+[2025-10-28 14:07:38 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:07:38 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:07:38 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 1.3356ms
+[2025-10-28 14:07:38 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.7521ms
+[2025-10-28 14:07:50 INF] Now listening on: https://localhost:40443
+[2025-10-28 14:07:50 INF] Now listening on: http://localhost:40080
+[2025-10-28 14:07:50 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 14:07:50 INF] Hosting environment: Development
+[2025-10-28 14:07:50 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 14:07:50 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 14:07:50 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 194.3441ms
+[2025-10-28 14:07:50 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:07:50 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 5.8698ms
+[2025-10-28 14:07:51 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:07:51 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.7799ms
+[2025-10-28 14:07:51 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 14:07:51 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.019ms
+[2025-10-28 14:07:56 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:07:56 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:07:56 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:07:56 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:07:56 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 24.1391ms
+[2025-10-28 14:07:56 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:07:56 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:07:56 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 3.9896ms
+[2025-10-28 14:07:56 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.3499ms
+[2025-10-28 14:08:57 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:08:57 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:08:57 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:08:57 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:08:57 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 27.4775ms
+[2025-10-28 14:08:57 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:08:57 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:08:57 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 1.5715ms
+[2025-10-28 14:08:57 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.9248ms
+[2025-10-28 14:09:05 INF] Request starting HTTP/2 GET https://localhost:40443/favicon.ico - null null
+[2025-10-28 14:09:05 INF] Request finished HTTP/2 GET https://localhost:40443/favicon.ico - 404 0 null 1.1829ms
+[2025-10-28 14:09:05 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/favicon.ico, Response status code: 404
+[2025-10-28 14:35:33 INF] Now listening on: https://localhost:40443
+[2025-10-28 14:35:33 INF] Now listening on: http://localhost:40080
+[2025-10-28 14:35:33 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 14:35:33 INF] Hosting environment: Development
+[2025-10-28 14:35:33 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 14:35:33 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 14:35:34 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 225.5725ms
+[2025-10-28 14:35:34 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:35:34 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:35:34 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 5.7208ms
+[2025-10-28 14:35:34 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.0146ms
+[2025-10-28 14:35:34 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 14:35:34 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9733ms
+[2025-10-28 14:35:39 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:35:39 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:35:39 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:35:39 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:35:39 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 19.0049ms
+[2025-10-28 14:35:39 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:35:39 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:35:39 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 2.0154ms
+[2025-10-28 14:35:39 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.6214ms
+[2025-10-28 14:35:44 INF] Request starting HTTP/2 GET https://localhost:40443/code/test - null null
+[2025-10-28 14:35:44 INF] Request finished HTTP/2 GET https://localhost:40443/code/test - 404 0 null 3.8217ms
+[2025-10-28 14:35:44 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/code/test, Response status code: 404
+[2025-10-28 14:35:50 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:35:50 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:35:50 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:35:50 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:35:50 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 4.2112ms
+[2025-10-28 14:35:50 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:35:50 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:35:50 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 1.2646ms
+[2025-10-28 14:35:50 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.5799ms
+[2025-10-28 14:35:53 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:35:53 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:35:53 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:35:53 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:35:53 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 7.4026ms
+[2025-10-28 14:35:53 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:35:53 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:35:53 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 1.1183ms
+[2025-10-28 14:35:53 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.2187ms
+[2025-10-28 14:35:53 INF] Request starting HTTP/2 GET https://localhost:40443/favicon.ico - null null
+[2025-10-28 14:35:53 INF] Request finished HTTP/2 GET https://localhost:40443/favicon.ico - 404 0 null 1.4607ms
+[2025-10-28 14:35:53 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/favicon.ico, Response status code: 404
+[2025-10-28 14:36:01 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:36:01 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:36:01 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:36:01 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:36:01 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 3.9269ms
+[2025-10-28 14:36:01 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:36:01 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:36:01 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 0.6815ms
+[2025-10-28 14:36:01 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.6637ms
+[2025-10-28 14:36:01 INF] Request starting HTTP/2 GET https://localhost:40443/favicon.ico - null null
+[2025-10-28 14:36:01 INF] Request finished HTTP/2 GET https://localhost:40443/favicon.ico - 404 0 null 0.6125ms
+[2025-10-28 14:36:01 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/favicon.ico, Response status code: 404
+[2025-10-28 14:38:02 INF] Now listening on: https://localhost:40443
+[2025-10-28 14:38:02 INF] Now listening on: http://localhost:40080
+[2025-10-28 14:38:02 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 14:38:02 INF] Hosting environment: Development
+[2025-10-28 14:38:02 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 14:38:02 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 14:38:02 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 233.5672ms
+[2025-10-28 14:38:02 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:38:03 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:38:03 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 33.2767ms
+[2025-10-28 14:38:03 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.4432ms
+[2025-10-28 14:38:03 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 14:38:03 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.1766ms
+[2025-10-28 14:38:08 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:38:08 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:38:08 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:38:08 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:38:08 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 19.4556ms
+[2025-10-28 14:38:08 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:38:08 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:38:08 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 2.7582ms
+[2025-10-28 14:38:08 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.0977ms
+[2025-10-28 14:38:11 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:38:11 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:38:11 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:38:11 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:38:11 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 4.0503ms
+[2025-10-28 14:38:11 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:38:11 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:38:11 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 2.4395ms
+[2025-10-28 14:38:11 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.379ms
+[2025-10-28 14:38:25 INF] Request starting HTTP/2 GET https://localhost:40443/favicon.ico - null null
+[2025-10-28 14:38:25 INF] Request finished HTTP/2 GET https://localhost:40443/favicon.ico - 404 0 null 1.2108ms
+[2025-10-28 14:38:25 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/favicon.ico, Response status code: 404
+[2025-10-28 14:52:43 INF] Now listening on: https://localhost:40443
+[2025-10-28 14:52:43 INF] Now listening on: http://localhost:40080
+[2025-10-28 14:52:43 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 14:52:43 INF] Hosting environment: Development
+[2025-10-28 14:52:43 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 14:52:43 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 14:52:43 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 218.9014ms
+[2025-10-28 14:52:43 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:52:44 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:52:44 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 7.9409ms
+[2025-10-28 14:52:44 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.6956ms
+[2025-10-28 14:52:44 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 14:52:44 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.1555ms
+[2025-10-28 14:52:50 INF] Request starting HTTP/2 GET https://localhost:40443/.well-known/appspecific/com.chrome.devtools.json - null null
+[2025-10-28 14:52:50 INF] Request finished HTTP/2 GET https://localhost:40443/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 5.4254ms
+[2025-10-28 14:52:50 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+[2025-10-28 14:53:42 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:53:42 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:53:42 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:53:42 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:53:42 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 21.6908ms
+[2025-10-28 14:53:42 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:53:42 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:53:42 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 2.5304ms
+[2025-10-28 14:53:42 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.0459ms
+[2025-10-28 14:53:47 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:53:47 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:53:47 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:53:47 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:53:47 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 8.1986ms
+[2025-10-28 14:53:47 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 14:53:47 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 14:53:47 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 1.1892ms
+[2025-10-28 14:53:47 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.9118ms
+[2025-10-28 14:53:50 INF] Request starting HTTP/2 GET https://localhost:40443/favicon.ico - null null
+[2025-10-28 14:53:50 INF] Request finished HTTP/2 GET https://localhost:40443/favicon.ico - 404 0 null 0.5721ms
+[2025-10-28 14:53:50 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/favicon.ico, Response status code: 404
+[2025-10-28 14:54:59 INF] Request starting HTTP/2 GET https://localhost:40443/.well-known/appspecific/com.chrome.devtools.json - null null
+[2025-10-28 14:54:59 INF] Request finished HTTP/2 GET https://localhost:40443/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 0.4445ms
+[2025-10-28 14:54:59 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+[2025-10-28 14:55:12 INF] Request starting HTTP/2 GET https://localhost:40443/cod/test - null null
+[2025-10-28 14:55:12 INF] Executing endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:55:12 INF] Write content with HTTP Response ContentType of text/html; charset=utf-8
+[2025-10-28 14:55:12 INF] Executed endpoint 'HTTP: GET /cod/test'
+[2025-10-28 14:55:12 INF] Request finished HTTP/2 GET https://localhost:40443/cod/test - 200 null text/html; charset=utf-8 17.7958ms
+[2025-10-28 14:55:12 INF] Request starting HTTP/2 GET https://localhost:40443/.well-known/appspecific/com.chrome.devtools.json - null null
+[2025-10-28 14:55:12 INF] Request finished HTTP/2 GET https://localhost:40443/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 0.3141ms
+[2025-10-28 14:55:12 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+[2025-10-28 16:10:26 INF] Now listening on: https://localhost:40443
+[2025-10-28 16:10:27 INF] Now listening on: http://localhost:40080
+[2025-10-28 16:10:27 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 16:10:27 INF] Hosting environment: Development
+[2025-10-28 16:10:27 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 16:10:27 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 16:10:27 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 206.2857ms
+[2025-10-28 16:10:27 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 16:10:27 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 16:10:27 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 13.3256ms
+[2025-10-28 16:10:27 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.1812ms
+[2025-10-28 16:10:27 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 16:10:27 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.3786ms
+[2025-10-28 16:11:02 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/sqagger.json - null null
+[2025-10-28 16:11:02 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/sqagger.json - 404 0 null 7.4901ms
+[2025-10-28 16:11:02 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/swagger/sqagger.json, Response status code: 404
+[2025-10-28 16:11:13 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/sqagger.json - null null
+[2025-10-28 16:11:13 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/sqagger.json - 404 0 null 6.3275ms
+[2025-10-28 16:11:13 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:40443/swagger/v1/sqagger.json, Response status code: 404
+[2025-10-28 16:11:22 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 16:11:22 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.3084ms
+[2025-10-28 16:17:05 INF] Now listening on: https://localhost:40443
+[2025-10-28 16:17:05 INF] Now listening on: http://localhost:40080
+[2025-10-28 16:17:05 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-28 16:17:05 INF] Hosting environment: Development
+[2025-10-28 16:17:05 INF] Content root path: C:\Projects\ParkingServiceAPI
+[2025-10-28 16:17:06 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/index.html - null null
+[2025-10-28 16:17:06 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/index.html - 200 null text/html;charset=utf-8 233.8589ms
+[2025-10-28 16:17:06 INF] Request starting HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - null null
+[2025-10-28 16:17:06 INF] Request starting HTTP/2 GET https://localhost:40443/_vs/browserLink - null null
+[2025-10-28 16:17:06 INF] Request finished HTTP/2 GET https://localhost:40443/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript; charset=utf-8 15.0384ms
+[2025-10-28 16:17:06 INF] Request finished HTTP/2 GET https://localhost:40443/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.4583ms
+[2025-10-28 16:17:06 INF] Request starting HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - null null
+[2025-10-28 16:17:06 INF] Request finished HTTP/2 GET https://localhost:40443/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.0752ms

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using ParkingServiceApi.Data.Models;
-using ParkingServiceApi.DTOs;
+using ParkingServiceApi.DTO;
 
 namespace ParkingServiceApi.MappingProfiles
 {

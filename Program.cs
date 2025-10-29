@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ParkingServiceApi.Data;
 using Serilog;
+//using static System.Runtime.InteropServices.JavaScript.JSType;
 
 var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production";
 var logPath = Path.Combine("logs", environment, "log_.txt"); // подкаталог по среде + шаблон дл€ дат
@@ -81,7 +82,47 @@ app.MapGet("/error/test",
     [EnableCors("AnyOrigin")]
     [ResponseCache(NoStore = true)]    () => 
     { throw new Exception("Test"); });
+//app.MapGet("/cod/test",
+//    [EnableCors("AnyOrigin")]
+//[ResponseCache(NoStore = true)] () =>
+//    Results.Content("<script>" +
+//"window.alert('Your client support JavaScript!" +
+//    "\\r\\n\\r\\n" +
+//    $"Server time: {DateTime.UtcNow.ToString("o")}" +
+//    "</script>" +
+//    "<noscript> Your ckient does not support JavaScript</noscript>",
+//    "text/html"));
+app.MapGet("/cod/test",
+    [EnableCors("AnyOrigin")]
+[ResponseCache(NoStore = true)]
+() =>
+    {
+        var serverTime = DateTime.UtcNow.ToString("o");
 
+        var html = $@"<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=""utf-8"">
+    <title>JS Test</title>
+</head>
+<body>
+    <script>
+        // —ерверное врем€ вставлено как строка
+        const serverTime = '{serverTime}';
+        //  лиентское вычисление
+        const clientTime = new Date().toISOString();
+
+        window.alert(`Your client supports JavaScript!
+
+Server time: ${serverTime}
+Client time: ${{clientTime}}`);
+    </script>
+    <noscript>Your client does not support JavaScript</noscript>
+</body>
+</html>";
+
+        return Results.Content(html, "text/html; charset=utf-8");
+    });
 app.MapControllers();
 
 app.Run();
